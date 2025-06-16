@@ -14,3 +14,19 @@ If the file doesn't exist, it raises an error and won't start the server.
 **/medication/analyze**	Detect duplicate meds and known dangerous interactions
 **patients.json**	Simulates patient database
 **conflicts dict	**Hardcoded clinical rules for drug interactions
+
+
+
+Client Side code @client.py 
+This Python script is a client application that interacts with a local MCP server (presumably the FastAPI app from your previous code).
+
+**What the Code Does — High-Level Summary**
+Connects to an MCP (Medical Communication Protocol) server running on http://localhost:8000 ( Code available @ Server.py)
+
+Retrieves a patient’s data by ID
+
+Displays the patient’s info
+
+Sends the patient’s medications to an API endpoint to analyze for potential interactions
+
+Displays any warnings or interactions
