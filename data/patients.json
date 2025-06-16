@@ -1,0 +1,16 @@
+[
+  {
+    "id": "patient-123",
+    "name": "John Doe",
+    "age": 45,
+    "conditions": ["Hypertension", "Diabetes"],
+    "medications": ["Lisinopril", "Metformin"]
+  },
+  {
+    "id": "patient-456",
+    "name": "Jane Smith",
+    "age": 32,
+    "conditions": ["Asthma"],
+    "medications": ["Albuterol"]
+  }
+]
