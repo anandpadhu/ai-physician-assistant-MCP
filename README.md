@@ -1,4 +1,7 @@
-This FastAPI code defines a simple backend for patient data retrieval and medication interaction analysis. Let's break down what it's doing step by step:
+This FastAPI code defines a simple backend for patient data retrieval and medication interaction analysis. 
+**
+**Let's break down what it's doing step by step**:**
+
 Uses FastAPI to create a web API.
 Uses Pydantic's BaseModel to define data schemas.
 Uses json and os to load data from a local file.
