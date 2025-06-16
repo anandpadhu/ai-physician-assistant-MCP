@@ -33,3 +33,9 @@ Displays the patient’s info
 Sends the patient’s medications to an API endpoint to analyze for potential interactions
 
 Displays any warnings or interactions
+
+
+
+****Future Scope of this ****
+
+This could extended for SDOH ( Social Determinents of health & MCP & AI Assistant )
